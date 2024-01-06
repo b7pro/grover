@@ -1,6 +1,7 @@
 import "./style.css";
 import Strawberry from "../../assets/Strawberry.png"
-import cheff from "../../assets/chef.png"
+import cheff from "../../assets/header-img.png"
+import orange from "../../assets/eating-backgrounds-white-orange-object-removebg-preview.png"
 
 const HomePage = () => {
   return (
@@ -29,7 +30,12 @@ const HomePage = () => {
           </div>
           <div className="img-home-page">
             <div className="img-cheff">
-                
+              <div className="fresh-orange">
+                  <img src={orange} style={{width:"150px"}} alt="" />
+                  <h1>49.99$ <br /> <span className="free">Free shopping</span></h1>
+                  <i className="bi bi-cart-plus"></i>
+              </div>
+                <img src={cheff} style={{width:"600px"}} alt="" />
             </div>
           </div>
         </div>

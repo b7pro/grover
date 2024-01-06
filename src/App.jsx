@@ -1,5 +1,6 @@
 import Header from "./components/header"
 import HomePage from "./components/home"
+import ServerPage from "./components/serves"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <HomePage />
+      <ServerPage />
     </>
   )
 }
