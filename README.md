@@ -1,5 +1,5 @@
 # React + Vite
-just test page 
+just test create page web site 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
